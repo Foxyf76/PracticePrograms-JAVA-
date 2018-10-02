@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="291.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Label layoutX="204.0" layoutY="14.0" text="DISTANCE FINDER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="-2.0" layoutY="71.0" prefHeight="111.0" prefWidth="600.0">
+         <children>
+            <Label text="CITY 1:  ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField fx:id="city1" />
+            <Label layoutX="213.0" layoutY="56.0" text="CITY 2:  ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="city2" layoutX="236.0" layoutY="53.0">
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" onAction="#search" prefHeight="25.0" prefWidth="79.0" text="GO" />
+         </children>
+      </HBox>
+      <HBox fx:id="hbox" alignment="CENTER" disable="true" layoutY="157.0" prefHeight="64.0" prefWidth="600.0" style="-fx-background-color: red;">
+         <children>
+            <Label fx:id="info" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+            </Label>
+            <RadioButton fx:id="km" mnemonicParsing="false" onAction="#convertKM" selected="true" text="KM" textFill="WHITE">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="miles" layoutX="291.0" layoutY="34.0" mnemonicParsing="false" onAction="#convertMiles" text="MILES" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></RadioButton>
+         </children>
+      </HBox>
+      <HBox fx:id="hbox1" alignment="CENTER" layoutX="52.0" layoutY="221.0" prefHeight="64.0" prefWidth="493.0">
+         <children>
+            <Label fx:id="distance">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label layoutX="174.0" layoutY="54.0" text="*Please enter city beginning with upper case" />
+      <Label layoutX="175.0" layoutY="69.0" text="*Some duplicate names of cities exist" />
+   </children>
+</AnchorPane>

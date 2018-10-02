@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="461.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Label layoutX="308.0" layoutY="14.0" text="CHANGE RETURN">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutY="78.0" prefHeight="100.0" prefWidth="814.0" style="-fx-background-color: PINK; -fx-border-color: white;">
+         <children>
+            <Label text="PRODUCT COST: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="inputCost" prefHeight="25.0" prefWidth="122.0" />
+            <Label layoutX="178.0" layoutY="50.0" text="GIVEN AMOUNT: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="inputAmount" layoutX="251.0" layoutY="48.0" prefHeight="25.0" prefWidth="122.0" />
+            <Button mnemonicParsing="false" onAction="#generateChange" style="-fx-background-color: PINK; -fx-border-color: WHITE;" text="GET CHANGE" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin></Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="-1.0" layoutY="178.0" prefHeight="88.0" prefWidth="815.0" style="-fx-border-color: white; -fx-background-color: grey;" styleClass="bor">
+         <children>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/1.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="cent1" minWidth="40.0" prefHeight="17.0" prefWidth="35.0" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="50.0" fitWidth="50.0" layoutX="275.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/2.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="cent2" layoutX="85.0" layoutY="39.0" minWidth="40.0" prefHeight="17.0" prefWidth="35.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="50.0" fitWidth="50.0" layoutX="310.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/5.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="cent5" layoutX="203.0" layoutY="39.0" minWidth="40.0" prefHeight="17.0" prefWidth="35.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="50.0" fitWidth="50.0" layoutX="345.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/10.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="cent10" layoutX="309.0" layoutY="39.0" minWidth="40.0" prefHeight="30.0" prefWidth="29.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="50.0" fitWidth="50.0" layoutX="380.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/20.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="cent20" layoutX="414.0" layoutY="39.0" minWidth="40.0" prefHeight="17.0" prefWidth="35.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="50.0" fitWidth="50.0" layoutX="415.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/50.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="cent50" layoutX="525.0" layoutY="39.0" minWidth="40.0" prefHeight="17.0" prefWidth="35.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="50.0" fitWidth="50.0" layoutX="450.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/1e.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="euro1" layoutX="636.0" layoutY="39.0" minWidth="40.0" prefHeight="17.0" prefWidth="35.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="50.0" fitWidth="50.0" layoutX="485.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/2e.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="euro2" layoutX="747.0" layoutY="39.0" minWidth="40.0" prefHeight="17.0" prefWidth="35.0" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="-1.0" layoutY="266.0" prefHeight="100.0" prefWidth="815.0" style="-fx-background-color: lightgrey; -fx-border-color: white;">
+         <children>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="75.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/5note.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="euro5" minWidth="25.0" prefHeight="21.0" prefWidth="25.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-30.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="75.0" fitWidth="120.0" layoutX="337.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/10note.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="euro10" layoutX="141.0" layoutY="50.0" minWidth="25.0" prefHeight="21.0" prefWidth="25.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-30.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="75.0" fitWidth="120.0" layoutX="412.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/20note.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="euro20" layoutX="336.0" layoutY="50.0" minWidth="25.0" prefHeight="21.0" prefWidth="25.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-30.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="75.0" fitWidth="120.0" layoutX="486.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/50note.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="euro50" layoutX="521.0" layoutY="50.0" minWidth="25.0" prefHeight="21.0" prefWidth="25.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-30.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+            <ImageView cache="true" cacheHint="QUALITY" fitHeight="75.0" fitWidth="120.0" layoutX="556.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/100note.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="40.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label fx:id="euro100" layoutX="706.0" layoutY="50.0" minWidth="25.0" prefHeight="21.0" prefWidth="25.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="-30.0" right="5.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="2.0" layoutY="366.0" prefHeight="100.0" prefWidth="814.0">
+         <children>
+            <Label text="CHANGE OWED: " textFill="#575757">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="changeOwed" layoutX="309.0" layoutY="41.0" text="0" textFill="#575757">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

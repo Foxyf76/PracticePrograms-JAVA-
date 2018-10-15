@@ -1,6 +1,6 @@
 # PracticePrograms-JAVA-
 
-![picture alt](https://imgur.com/a/qJLDFEo)
+![picture alt](https://i.imgur.com/vvmZUE5.png)
 
 Collection of small Java programs ranging in difficulty, based on a collection from the following link - 
 [Karan Projects](https://github.com/karan/Projects)

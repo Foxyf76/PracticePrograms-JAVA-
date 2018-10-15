@@ -1,7 +1,6 @@
 # Java 
 
 <p align="center">
-  <p> JAVAAAA </p>
   <img src="https://i.imgur.com/vvmZUE5.png"></img>
 </p> 
 

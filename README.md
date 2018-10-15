@@ -1,8 +1,8 @@
 # PracticePrograms-JAVA-
 
-<p align="center">
+# <p align="center">
   <img src="https://i.imgur.com/vvmZUE5.png">  </img>
-</p>
+</p> #
 
 
 Collection of small Java programs ranging in difficulty, based on a collection from the following link - 

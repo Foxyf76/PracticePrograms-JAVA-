@@ -1,6 +1,7 @@
 # PracticePrograms-JAVA-
 
-Collection of small Java programs ranging in difficulty, based on a collection from the following link - [Karan Projects](https://github.com/karan/Projects)
+Collection of small Java programs ranging in difficulty, based on a collection from the following link - [Karan Projects (https://github.com/karan/Projects)
+
 These apps include:
 
 ### Change Return ### 

@@ -32,6 +32,10 @@ An app that allows the user to convert any decimal into binary, and any binary i
 ### Credit Card Validator ###
 An app that uses the Luhn algorithm to validate whether the input credit card number is a valid credit card or a fake.
 - [x] Finished 
+
+### Caesar Cipher ###
+A text based menu-driven app that allows the user to encrypt a word using the caesar cipher while specifying how many times to shift the alphabet. Also able to decrypt any ciphertext and return it to plaintext.
+- [x] Finished 
 ----
 
 ***NOTE***: Some of the code used in these apps has been sourced from the internet, and is referenced within comments inside the relevant programs.
